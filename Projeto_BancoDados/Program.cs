@@ -1,8 +1,13 @@
+using Projeto_BancoDados.Repositório;
+using Projeto_BancoDados.Repositório.Contrato;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
