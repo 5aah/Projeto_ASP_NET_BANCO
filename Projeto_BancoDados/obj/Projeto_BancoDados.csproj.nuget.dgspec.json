@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_BancoDados\\Projeto_BancoDados.csproj": {}
+    "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_ASP_NET_BANCO\\Projeto_BancoDados\\Projeto_BancoDados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_BancoDados\\Projeto_BancoDados.csproj": {
+    "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_ASP_NET_BANCO\\Projeto_BancoDados\\Projeto_BancoDados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_BancoDados\\Projeto_BancoDados.csproj",
+        "projectUniqueName": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_ASP_NET_BANCO\\Projeto_BancoDados\\Projeto_BancoDados.csproj",
         "projectName": "Projeto_BancoDados",
-        "projectPath": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_BancoDados\\Projeto_BancoDados.csproj",
+        "projectPath": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_ASP_NET_BANCO\\Projeto_BancoDados\\Projeto_BancoDados.csproj",
         "packagesPath": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_BancoDados\\obj\\",
+        "outputPath": "C:\\Users\\SarahSilvaSantana.AzureAD.000\\source\\repos\\Projeto_BancoDados\\Projeto_ASP_NET_BANCO\\Projeto_BancoDados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

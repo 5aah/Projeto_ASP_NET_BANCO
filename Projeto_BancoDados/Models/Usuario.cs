@@ -18,6 +18,6 @@ namespace Projeto_BancoDados.Models
         
         [Display(Name = "Data de Nascimento")]
         [Required(ErrorMessage = "O Campo data de nascimento é obrigatório.")]
-        public DateTime dataNasc { get; set; }
+        public DateTime DataNasc { get; set; }
     }
 }
