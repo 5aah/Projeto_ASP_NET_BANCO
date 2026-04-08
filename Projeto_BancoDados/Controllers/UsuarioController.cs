@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Projeto_BancoDados.Models;
-using Projeto_BancoDados.Repositório;
 using Projeto_BancoDados.Repositório.Contrato;
 
 namespace Projeto_BancoDados.Controllers
